@@ -1,0 +1,21 @@
+.headerHeader{
+    margin-left: 250px;
+    margin-top: -130px;
+    font-size: 75px;
+}
+.subHeader{
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.headerNav{
+    display: flex;
+    justify-content: right;
+    align-items: baseline; 
+    font-size: 20px;
+    margin-top: -225px;
+    margin-right: 30px;
+}
+
+.apt-logo{
+    margin-left: 125px;
+}
