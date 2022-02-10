@@ -42,25 +42,22 @@ class App extends Component {
               
               <Route path="/apartmentindex" component={ApartmentIndex} />
 
-              {/* <Route  path="/users/sign_up"  component={this.props.new_user_route}/> */}
+              
 
               {/* <Route path="/apartmentshow" component={ApartmentShow} />
               <Route path="/apartmentedit" component={ApartmentEdit} />
               <Route component={NotFound}/> */}
             </Switch>
           </Router>
-
-       
       </>
     )
   }
 }
-
 export default App
 
+       
 
 
 
-{/* < Home />
-< ApartmentIndex />
-< Header {...this.props} /> */}
+
+
