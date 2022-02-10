@@ -16,8 +16,6 @@ class App extends Component {
   constructor(props){
     super(props);
     
-    
-    
   }
   render() {
     const {
@@ -27,33 +25,35 @@ class App extends Component {
       sign_in_route,
       sign_out_route
     } = this.props
-  
-  
     
-   
-   
     return(
-      
       <>
-          <Router>
+        <Router>
           <Header {...this.props} />
             <Switch>
               <Route exact path="/" component={Home} />
-              
               <Route path="/apartmentindex" component={ApartmentIndex} />
-
-              
-
               {/* <Route path="/apartmentshow" component={ApartmentShow} />
               <Route path="/apartmentedit" component={ApartmentEdit} />
               <Route component={NotFound}/> */}
             </Switch>
-          </Router>
+        </Router>
       </>
     )
   }
 }
 export default App
+              
+    
+
+              
+
+    
+  
+  
+    
+   
+   
 
        
 
