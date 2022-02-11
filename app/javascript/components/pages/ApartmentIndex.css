@@ -1,0 +1,10 @@
+.aptindex{
+    margin: 200px;
+}
+.indexheader{
+    text-align: center;
+}
+.indexbod{
+    text-align: left;
+    margin-left: -200px;
+}
